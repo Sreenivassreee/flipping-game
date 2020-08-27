@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42F2A2A24F7F34B00583379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F2A2924F7F34B00583379 /* AppDelegate.swift */; };
+		F42F2A2C24F7F34B00583379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F2A2B24F7F34B00583379 /* SceneDelegate.swift */; };
+		F42F2A2E24F7F34B00583379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F2A2D24F7F34B00583379 /* ContentView.swift */; };
+		F42F2A3024F7F34D00583379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42F2A2F24F7F34D00583379 /* Assets.xcassets */; };
+		F42F2A3324F7F34D00583379 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42F2A3224F7F34D00583379 /* Preview Assets.xcassets */; };
+		F42F2A3624F7F34D00583379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42F2A3424F7F34D00583379 /* LaunchScreen.storyboard */; };
+		F42F2A4124F7F34D00583379 /* Flipping_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F2A4024F7F34D00583379 /* Flipping_gameTests.swift */; };
+		F42F2A4C24F7F34D00583379 /* Flipping_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F2A4B24F7F34D00583379 /* Flipping_gameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F42F2A3D24F7F34D00583379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42F2A1E24F7F34A00583379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42F2A2524F7F34A00583379;
+			remoteInfo = "Flipping game";
+		};
+		F42F2A4824F7F34D00583379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42F2A1E24F7F34A00583379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42F2A2524F7F34A00583379;
+			remoteInfo = "Flipping game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F42F2A2624F7F34B00583379 /* Flipping game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flipping game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F2A2924F7F34B00583379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F42F2A2B24F7F34B00583379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F42F2A2D24F7F34B00583379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F42F2A2F24F7F34D00583379 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42F2A3224F7F34D00583379 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F42F2A3524F7F34D00583379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42F2A3724F7F34D00583379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42F2A3C24F7F34D00583379 /* Flipping gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flipping gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F2A4024F7F34D00583379 /* Flipping_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flipping_gameTests.swift; sourceTree = "<group>"; };
+		F42F2A4224F7F34D00583379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42F2A4724F7F34D00583379 /* Flipping gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flipping gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F2A4B24F7F34D00583379 /* Flipping_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flipping_gameUITests.swift; sourceTree = "<group>"; };
+		F42F2A4D24F7F34D00583379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42F2A2324F7F34A00583379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F2A3924F7F34D00583379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F2A4424F7F34D00583379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42F2A1D24F7F34A00583379 = {
+			isa = PBXGroup;
+			children = (
+				F42F2A2824F7F34B00583379 /* Flipping game */,
+				F42F2A3F24F7F34D00583379 /* Flipping gameTests */,
+				F42F2A4A24F7F34D00583379 /* Flipping gameUITests */,
+				F42F2A2724F7F34B00583379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42F2A2724F7F34B00583379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42F2A2624F7F34B00583379 /* Flipping game.app */,
+				F42F2A3C24F7F34D00583379 /* Flipping gameTests.xctest */,
+				F42F2A4724F7F34D00583379 /* Flipping gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42F2A2824F7F34B00583379 /* Flipping game */ = {
+			isa = PBXGroup;
+			children = (
+				F42F2A2924F7F34B00583379 /* AppDelegate.swift */,
+				F42F2A2B24F7F34B00583379 /* SceneDelegate.swift */,
+				F42F2A2D24F7F34B00583379 /* ContentView.swift */,
+				F42F2A2F24F7F34D00583379 /* Assets.xcassets */,
+				F42F2A3424F7F34D00583379 /* LaunchScreen.storyboard */,
+				F42F2A3724F7F34D00583379 /* Info.plist */,
+				F42F2A3124F7F34D00583379 /* Preview Content */,
+			);
+			path = "Flipping game";
+			sourceTree = "<group>";
+		};
+		F42F2A3124F7F34D00583379 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F42F2A3224F7F34D00583379 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F42F2A3F24F7F34D00583379 /* Flipping gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F42F2A4024F7F34D00583379 /* Flipping_gameTests.swift */,
+				F42F2A4224F7F34D00583379 /* Info.plist */,
+			);
+			path = "Flipping gameTests";
+			sourceTree = "<group>";
+		};
+		F42F2A4A24F7F34D00583379 /* Flipping gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F42F2A4B24F7F34D00583379 /* Flipping_gameUITests.swift */,
+				F42F2A4D24F7F34D00583379 /* Info.plist */,
+			);
+			path = "Flipping gameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42F2A2524F7F34A00583379 /* Flipping game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F2A5024F7F34D00583379 /* Build configuration list for PBXNativeTarget "Flipping game" */;
+			buildPhases = (
+				F42F2A2224F7F34A00583379 /* Sources */,
+				F42F2A2324F7F34A00583379 /* Frameworks */,
+				F42F2A2424F7F34A00583379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flipping game";
+			productName = "Flipping game";
+			productReference = F42F2A2624F7F34B00583379 /* Flipping game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F42F2A3B24F7F34D00583379 /* Flipping gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F2A5324F7F34D00583379 /* Build configuration list for PBXNativeTarget "Flipping gameTests" */;
+			buildPhases = (
+				F42F2A3824F7F34D00583379 /* Sources */,
+				F42F2A3924F7F34D00583379 /* Frameworks */,
+				F42F2A3A24F7F34D00583379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42F2A3E24F7F34D00583379 /* PBXTargetDependency */,
+			);
+			name = "Flipping gameTests";
+			productName = "Flipping gameTests";
+			productReference = F42F2A3C24F7F34D00583379 /* Flipping gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F42F2A4624F7F34D00583379 /* Flipping gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F2A5624F7F34D00583379 /* Build configuration list for PBXNativeTarget "Flipping gameUITests" */;
+			buildPhases = (
+				F42F2A4324F7F34D00583379 /* Sources */,
+				F42F2A4424F7F34D00583379 /* Frameworks */,
+				F42F2A4524F7F34D00583379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42F2A4924F7F34D00583379 /* PBXTargetDependency */,
+			);
+			name = "Flipping gameUITests";
+			productName = "Flipping gameUITests";
+			productReference = F42F2A4724F7F34D00583379 /* Flipping gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42F2A1E24F7F34A00583379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Sreenivas K";
+				TargetAttributes = {
+					F42F2A2524F7F34A00583379 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F42F2A3B24F7F34D00583379 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F42F2A2524F7F34A00583379;
+					};
+					F42F2A4624F7F34D00583379 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F42F2A2524F7F34A00583379;
+					};
+				};
+			};
+			buildConfigurationList = F42F2A2124F7F34A00583379 /* Build configuration list for PBXProject "Flipping game" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42F2A1D24F7F34A00583379;
+			productRefGroup = F42F2A2724F7F34B00583379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42F2A2524F7F34A00583379 /* Flipping game */,
+				F42F2A3B24F7F34D00583379 /* Flipping gameTests */,
+				F42F2A4624F7F34D00583379 /* Flipping gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42F2A2424F7F34A00583379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F2A3624F7F34D00583379 /* LaunchScreen.storyboard in Resources */,
+				F42F2A3324F7F34D00583379 /* Preview Assets.xcassets in Resources */,
+				F42F2A3024F7F34D00583379 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F2A3A24F7F34D00583379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F2A4524F7F34D00583379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42F2A2224F7F34A00583379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F2A2A24F7F34B00583379 /* AppDelegate.swift in Sources */,
+				F42F2A2C24F7F34B00583379 /* SceneDelegate.swift in Sources */,
+				F42F2A2E24F7F34B00583379 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F2A3824F7F34D00583379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F2A4124F7F34D00583379 /* Flipping_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F2A4324F7F34D00583379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F2A4C24F7F34D00583379 /* Flipping_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F42F2A3E24F7F34D00583379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42F2A2524F7F34A00583379 /* Flipping game */;
+			targetProxy = F42F2A3D24F7F34D00583379 /* PBXContainerItemProxy */;
+		};
+		F42F2A4924F7F34D00583379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42F2A2524F7F34A00583379 /* Flipping game */;
+			targetProxy = F42F2A4824F7F34D00583379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F42F2A3424F7F34D00583379 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42F2A3524F7F34D00583379 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42F2A4E24F7F34D00583379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F42F2A4F24F7F34D00583379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42F2A5124F7F34D00583379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flipping game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Flipping game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sree.Flipping-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42F2A5224F7F34D00583379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Flipping game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Flipping game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sree.Flipping-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F42F2A5424F7F34D00583379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flipping gameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sree.Flipping-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipping game.app/Flipping game";
+			};
+			name = Debug;
+		};
+		F42F2A5524F7F34D00583379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flipping gameTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sree.Flipping-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flipping game.app/Flipping game";
+			};
+			name = Release;
+		};
+		F42F2A5724F7F34D00583379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flipping gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sree.Flipping-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flipping game";
+			};
+			name = Debug;
+		};
+		F42F2A5824F7F34D00583379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flipping gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sree.Flipping-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flipping game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42F2A2124F7F34A00583379 /* Build configuration list for PBXProject "Flipping game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F2A4E24F7F34D00583379 /* Debug */,
+				F42F2A4F24F7F34D00583379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42F2A5024F7F34D00583379 /* Build configuration list for PBXNativeTarget "Flipping game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F2A5124F7F34D00583379 /* Debug */,
+				F42F2A5224F7F34D00583379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42F2A5324F7F34D00583379 /* Build configuration list for PBXNativeTarget "Flipping gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F2A5424F7F34D00583379 /* Debug */,
+				F42F2A5524F7F34D00583379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42F2A5624F7F34D00583379 /* Build configuration list for PBXNativeTarget "Flipping gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F2A5724F7F34D00583379 /* Debug */,
+				F42F2A5824F7F34D00583379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42F2A1E24F7F34A00583379 /* Project object */;
+}
